@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: padrao;
+    src: url(../fonts/normal_font.ttf);
+}
+
+:root{
+    --claro: #fdf0cf;
+    --rosa: #FFCBE1;
+    --azul: #7C98B3;
+    --magenta: #6C4B5E;
+
+    --padrao: padrao, arial, serif;
+    --titulo: title, arial, cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: var(--claro);
+    padding-top: 5px;
+    padding-bottom: 25px;
+
+}
+
+#logo{
+    display: block;
+    margin: auto; 
+
+}
+
+#content{
+    background-color: var(--magenta);
+    text-align: center;
+    padding:2.5vw 0;
+}
+
+#foto1{
+    display: inline-block;
+    
+}
+
+#texto{
+    display: inline-block;
+    padding-top: 1.81vw;
+    font-family: var(--padrao);
+    font-size: 4.1vw;
+    margin: 0 1.01vw 0  5vw;
+    vertical-align: top;
+    max-width: 800px;    
+    color: #ffc9cc;
+}
+
+#content2{
+    background-color: #ffc9cc;
+    padding:3vw 0;
+    text-align: center;
+    font-family: var(--padrao);
+}
+
+#foto2{
+    display: inline-block;
+    margin:0 7vw;
+    text-align: center;
+}
+
+#texto2{
+    text-align: center;
+    display: inline-block;
+    font-size: 4.1vw;
+    margin: 0 32px;
+    max-width: 800px;
+    color: rgb(151, 112, 134);
+}
+
+footer{
+    background-color: var(--claro);
+    padding-top: 30px;
+    text-align: center;
+}
+
+#link1{
+    text-decoration: none ;
+    color: #80a2c2;
+    display: inline-block ;
+    height: 40px ;
+    width: 40px;
+    margin-right: 0.7vw;
+}
+
+#link2{
+    text-decoration: none ;
+    color: #80a2c2;
+    display: inline-block ;
+    height: 40px;
+    width: 40px;
+    margin-right: 0.5vw;
+}
+
+#link3{
+    text-decoration: none ;
+    color: #80a2c2;
+    display: inline-block ;
+    height: 40px;
+    width: 40px;
+    margin-right: 0.7vw;
+}
+
+#link4{
+    text-decoration: none ;
+    color: #80a2c2;
+    display: inline-block ;
+    height: 40px;
+    width: 40px;
+    margin-right: 0.7vw;
+
+}
+
+a:hover{
+    background-color: var(--rosa);
+    height: 570px;
+    width: 50px;
+}
+
